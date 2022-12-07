@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .header {
+    background-color: #f8e4fe;
+    padding: 30px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: lighter;
+  }
+ 
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    background-color: #fdf0ff;
+    padding: 10px;
+    text-align: left;
+    
+  }
+  
+
+  @media (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
